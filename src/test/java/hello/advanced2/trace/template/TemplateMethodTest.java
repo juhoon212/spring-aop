@@ -68,7 +68,5 @@ public class TemplateMethodTest {
         };
 
         template2.execute();
-
-
     }
 }
