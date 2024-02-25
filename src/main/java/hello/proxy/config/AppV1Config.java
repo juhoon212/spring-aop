@@ -7,7 +7,6 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class AppV1Config {
 
-    // controller
     @Bean
     public OrderControllerV1 orderControllerV1() {
         return new OrderControllerV1Impl(orderServiceV1());
